@@ -1,6 +1,3 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,git,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,git,python
-
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
@@ -247,7 +244,22 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# history
-.history
+# Ignore docs files
+_gh_pages
+_site
+.ruby-version
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,git,python
+# Komodo
+*.komodoproject
+.komodotools
+
+# grunt-html-validation
+validation-status.json
+validation-report.json
+
+# Folders to ignore
+node_modules
+
+# ETC
+.history
+.bundles
